@@ -5,7 +5,7 @@ module.exports = (Franz) => {
 
         let incompleteCount = 0;
 
-        const countEls = document.querySelectorAll('li.AppSidebarListsItems__itemContainer .AppSidebarCount:not([hidden]) > .AppSidebarCount__text');
+        const countEls = document.querySelectorAll('li.AppSidebarGroupsItems__item .AppSidebarGroupsItems__item__link[href^="/tasks/lists/"] .AppSidebarCount:not([hidden]) > .AppSidebarCount__text');
 
         if (countEls.length) {
             Array.from(countEls).forEach((el) => {
