@@ -1,5 +1,11 @@
 # recipe-anydo
+
 Recipe for Any.do integration with Franz 5
+
+## Archived
+
+I've recently switched from Franz to [Ferdium](https://ferdium.org/) (a fork of Franz that is receiving regular updates).  
+Anyway, they maintain their own [Any.do plugin](https://github.com/ferdium/ferdium-recipes/tree/main/recipes/anydo), so I no longer need to maintain this. Do with this code what you will, but unmodified, it most likely won't work longer term due to any updates Any.do implement in their HTML / CSS.
 
 ## Installation
 1. To install this plugin, download the zip [here](https://github.com/chappy84/recipe-anydo/archive/master.zip)
